@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac details</title>
+    <!-- vanila css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- responsive css -->
+    <link rel="stylesheet" href="assets/css/min.style.css">
+
+
+</head>
+
+<body>
+    <main>
+        <section>
+            <div class="main">
+                <div class="image">
+                    <img src="assets/images/mac.png" alt="">
+                </div>
+
+                <div class="details">
+                    <h1>iMac 24 inch 2021 M1 Chip 8 Core CPU 7 Core GPU - Green</h1>
+                    <p>The resolution (in pixels by pixels) of your Mac’s display determines how much information you
+                        can fit on screen and how sharp the image is, so it’s important to know. If you run a full-</p>
+
+                    <!-- memory -->
+                    <h4>Memory</h4>
+                    <button id="first-memory">8GB unified memory</button>
+                    <button id="second-memory">16GB unified memory</button>
+
+
+                    <!-- storage -->
+                    <h4>Storage</h4>
+                    <button id="first-storage">256GB SSD storage</button>
+                    <button id="second-storage">512GB SSD storage</button>
+                    <button id="third-storage">1TB SSD storage</button>
+
+                    <!-- delivery -->
+                    <h4>Choose your delivery option</h4>
+                    <button id="first-charge">Firday, Aug25 FREE prime delivery</button>
+                    <button id="second-charge">Firday, Aug21 Charge 20$</button>
+
+
+                    <!-- price table  -->
+                    <table class="table">
+
+                        <tbody>
+                            <tr class="table-row">
+                                <td>Best Price</td>
+                                <td>$ <span id="total-price">1299</span></td>
+                            </tr>
+                            <tr class="table-row">
+                                <td>Extra memory cost</td>
+                                <td>$ <span id="memory-cost">0</span></td>
+                            </tr>
+                            <tr class="table-row">
+                                <td>Extra storage cost</td>
+                                <td>$ <span id="storage-cost">0</span></td>
+                            </tr>
+                            <tr class="table-row-bold">
+                                <td>Delivery charge</td>
+                                <td>$ <span id="delivery-charge">0</span></td>
+                            </tr>
+                            <tr class="table-row-border">
+                                <td>Total Price</td>
+                                <td>$ <span id="total-amount">1299</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <!-- promo code  -->
+                    <div class="promo-code">
+                        <h4>Add promo code</h4>
+                        <input class="apply-input" type="text" name="" placeholder="stevekaku" id="promo-code">
+                        <button id="apply-btn" class="apply-btn">Apply</button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="total">
+                <h1>Total: $<span id="bottom-total">1299</span></h1>
+            </div>
+
+        </section>
+    </main>
+
+    <script src="react.js"></script>
+</body>
+
+</html>
